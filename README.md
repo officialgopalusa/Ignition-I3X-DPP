@@ -195,5 +195,5 @@ once as a reusable I3X asset model and then consumed both by an independent I3X
 client and by a controlled Digital Product Passport experience?**
 
 The local acceptance results show that the architecture works for the supplied
-Plant 1 demonstration data. The remaining work is productization and standards
+Plant 1 demonstration data. The remaining work is production's and standards
 alignment, not proof of the basic integration path.
