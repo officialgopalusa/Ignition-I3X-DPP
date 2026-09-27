@@ -10,22 +10,6 @@ Digital Product Passports (DPPs).
 
 ![Ignition I3X and DPP POC architecture](Arch.png)
 
-```mermaid
-flowchart LR
-    DATA["Ignition Data<br/>PLC · SCADA · Historian · Tag folders"]
-    I3X["I3X Tag Server<br/>Ignition module"]
-    EXPLORER["I3X Explorer<br/>Independent client"]
-    DPP["Digital Product Passport Connector<br/>Ignition module"]
-    EXPERIENCE["DPP Experience<br/>Perspective client"]
-    CONSUMER["Independent DPP consumer<br/>Local contract test"]
-
-    DATA -->|Selected asset tags| I3X
-    I3X -->|I3X REST API| EXPLORER
-    I3X -->|Shared asset model| DPP
-    DPP -->|Read-only internal API| EXPERIENCE
-    DPP -->|Versioned local read API| CONSUMER
-```
-
 ## Concept
 
 The POC keeps the integration in separate layers:
