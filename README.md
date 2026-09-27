@@ -8,6 +8,8 @@ Digital Product Passports (DPPs).
 > through `localhost`. It has not been prepared for a LAN, the public internet,
 > or production use.
 
+![Ignition I3X and DPP POC architecture](Arch.png)
+
 ```mermaid
 flowchart LR
     DATA["Ignition Data<br/>PLC · SCADA · Historian · Tag folders"]
